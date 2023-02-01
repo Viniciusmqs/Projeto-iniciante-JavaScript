@@ -1,0 +1,39 @@
+<h1>Media Bimestral</h1>
+
+<script>
+    //outputs
+    //  alert("mensagem inesperada") 
+    //  console.log("escreve no console")
+    //  document.write("escreve qualquer texto")
+    
+    // input
+    // prompt("Escreva seu Nome")
+
+    // Variaveis aloca espaço e memoria , e pode ser alterada a qualquer momento(var)
+    // constantes aloca espaço e memoria e nao pode ser alterada (const)
+   
+   
+   
+   
+     var nome = prompt("Escreva seu Nome.");
+        alert("Bem vindo ao seu Boletim");
+    
+        var Nota1 = prompt("Escreva sua nota");
+        var Nota2 = prompt("Escreva sua nota 2");
+    
+     var soma = (parseInt(Nota1)+parseInt(Nota2));
+     var media = soma / 2;
+   
+     document.write(" A sua Soma bimestral é "   +   soma + "<br>");
+     document.write(" A sua Media bimestral é "   +   media + "<br>");
+   
+        // Se a media for menor que 6 , REPROVADO 
+        // Se a media for igual ou maior que 6 , APROVADO
+
+        if(media >60) {
+            document.write("REPROVADO!")
+         }else{
+            document.write ("APROVADOO!")
+        }
+    
+</script>
