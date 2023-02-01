@@ -1,0 +1,25 @@
+<script>
+
+    alert("ATENÇAO NAO DEVE SER USADO EM PROVAS!");
+    var numero = prompt("digite um numero");
+    var multiplicador  = prompt("ate que numero deseja multiplicar");
+
+
+    // for(var i = 0; i <  multiplicador; i++){
+    //     document.write(numero + "  x  " +  i  + "  =  " + numero * i  + "<br>");
+      // }
+
+
+    // -- como chamar a funçao.
+    // calcularTaboada(8,20);
+    // calcularTaboada(9,10); -- como chamar a funçao.
+
+    function calcularTaboada(numero,multiplicador){
+        for(var i = 0; i <  multiplicador; i++){
+        document.write(numero + "  x  " +  i  + "  =  " + numero * i  + "<br>");
+        
+    }
+
+    } 
+
+</script>
