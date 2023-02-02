@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- conteudo uso o html -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recolhimento de Dados Pessoais...</title>
+ <style>       
+        /* estilo uso css */
+            body {
+                background-color: rgb(255, 0, 0);
+                color: rgb(0, 0, 0);
+                font: normal 20pt Candara;
+            }
+            h1{
+                color: black;
+            }
+</style>    
+</head>
+<body>
+    <h1>SEJA BEM VINDO</h1>
+    <p>Recolhimento de dados</p>
+    <script>
+        // interaçao uso o javaScript
+        alert("Trabalhamos com segurança criptografada")
+        confirm("Deseja mesmo continuar?")
+       var nome = prompt ("qual seu nome?")
+       var idade = prompt("qual sua idade?")
+       var cpf = prompt("qual seu cpf?")
+       var numero = prompt("qual seu numero de celular?")
+    
+       var maior_de_idade = idade > 17 
+       document.write("o seu nome é: " + nome + "<br>") 
+       document.write("o seu cpf é: " + cpf + "<br>") 
+       document.write("o seu telefone é: " + numero + "<br>")
+       document.write("a sua idade é: " + idade + "<br>")  
+
+    if(maior_de_idade<17){
+        document.write("Voce é maior de idade e pode prosseguir")
+    }else{
+        document.write("Tente de novo da aqui alguns meses")
+    }
+
+    </script>
+</body>
+</html>
